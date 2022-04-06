@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Academia de Béisbol</title>
+    <link rel="shortcut icon" href="images/IconAcademy.ico">
+    <link rel="stylesheet" href="css/estilos.css">
+
+    <!-- FONT FAMILY -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@300&display=swap" rel="stylesheet">
+
+
+</head>
+
+<body>
+    <!-- HEADER -->
+    <header class="header-home">
+        <!-- MENU -->
+        <nav class="main-menu">
+            <a class="logotipo" href="index.html" target="_blank">
+                <img src="images/logotipo.svg" alt="">
+            </a>
+            <ul class="menu-link-desktop">
+                <li>
+                    <a class="links-menu" href="#">Home</a>
+                </li>
+                <li>
+                    <a class="links-menu" href="#category">Categorias</a>
+                </li>
+                <li>
+                    <a class="links-menu cta-btn" href="#contact">Preinscripciones</a>
+                </li>
+            </ul>
+            <ul class="menu-link-mobile">
+                <li>
+                    <a class="links-menu" href="#">Home</a>
+                </li>
+                <li>
+                    <a class="links-menu" href="#category">Categorias</a>
+                </li>
+                <li>
+                    <a class="links-menu cta-btn" href="#contact">Preinscripciones</a>
+                </li>
+            </ul>
+        </nav>
+        <!-- MENU FIN-->
+
+        <!-- CONTAINER -->
+        <section class="hero container">
+            <hgroup>
+                <h1 class="title-hero">
+                    <span class="firts-title">Academia de Béisbol </span> <br> "Los Leones"
+                </h1>
+                <h3 class="description-hero">Formate en la Mejor Academia de Beisbol Profesional, contamos con
+                    entrenadores para todas las categorias, con los mejores Couch, excelentes instalaciones deportivas y muy buen ambiente. 
+                    <br>
+                    <br>Inscripciones desde los 5 Años de edad.</h3>
+                <a class="btns btn-hero" href="#contact">Formulario Preinscripción</a>
+            </hgroup>
+            <figure>
+                <img class="image-hero img-responsive" src="images/img-header3.jpg" alt="">
+            </figure>
+        </section>
+        <!-- CONTAINER FIN-->
+    </header>
+    <!-- HEADER FIN -->
+
+    <!-- CONTENIDO -->
+    <main>
+        <!-- CATEGORIAS -->
+        <section class="section-page section-category" id="category">
+            <h1 class="title-section">Categorias</h1>
+            <div class="container">
+                <article class="box-category">
+                    <figure class="box-image-category">
+                        <img src="images/img-categoria1.png" alt="">
+                    </figure>
+                    <h3 class="title-category">Semillita</h3>
+                    <p>Categoria Semillita, inscripciones con 5 Años de edad.</p>
+                </article>
+
+                <article class="box-category">
+                    <figure class="box-image-category">
+                        <img src="images/img-categoria2.png" alt="">
+                    </figure>
+                    <h3 class="title-category">Preparatoria</h3>
+                    <p>Categoria Preparatoria, inscripciones en edades de 6 y 7 Años.</p>
+                </article>
+
+                <article class="box-category">
+                    <figure class="box-image-category">
+                        <img src="images/img-categoria3.png" alt="Preinfantil">
+                    </figure>
+                    <h3 class="title-category">Preinfantil</h3>
+                    <p>Categoria Preinfantil, inscripciones en edades de 8 y 9 Años.</p>
+                </article>
+
+                <article class="box-category">
+                    <figure class="box-image-category">
+                        <img src="images/img-categoria4.png" alt="Infantil">
+                    </figure>
+                    <h3 class="title-category">Infantil</h3>
+                    <p>Categoria Infantil, inscripciones en edades de 10 y 11 Años.</p>
+                </article>
+                <article class="box-category">
+                    <figure class="box-image-category">
+                        <img src="images/img-categoria5.png" alt="Prejunior">
+                    </figure>
+                    <h3 class="title-category">Prejunior</h3>
+                    <p>Categoria Prejunior, inscripciones en edades de 12 y 13 Años.</p>
+                </article>
+                <article class="box-category">
+                    <figure class="box-image-category">
+                        <img src="images/img-categoria6.png" alt="Junior">
+                    </figure>
+                    <h3 class="title-category">Junior</h3>
+                    <p>Categoria Junior, inscripciones en edades de 14 y 15 Años.</p>
+                </article>
+            </div>
+        </section>
+        <!-- CATEGORIAS FIN -->
+
+        <!-- FORMULARIO PREINSCRIPCION REPRESENTANTE -->
+        <section class="section-page section-contact" id="contact">
+            <h1 class="title-section">Datos del Representante</h1>
+            <form action="" class="form-landing-page">
+                <div class="input-field">
+                    <input type="text" class="input-form" id="name_contact" autocomplete="off"
+                        placeholder="Nombre y Apellido">
+                    <br>
+                </div>
+                <div class="input-field">
+                    <input type="email" class="input-form" id="email_contact" autocomplete="off"
+                        placeholder="Correo Electronico">
+                    <br>
+                    <span class="error-text" id="error-email"></span>
+                </div>
+                <div class="input-field">
+                    <input type="number" class="input-form" id="tel_contact" autocomplete="off" placeholder="Telefono">
+                    <br>
+                    <span class="error-text" id="error-tel"></span>
+                </div>
+                <div class="input-field">
+                    <select id="option_contact" class="select-form">
+                        <option value="">-- Seleccione una Categoria --</option>
+                        <option value="Semillita">Semillita</option>
+                        <option value="Preparatoria">Preparatoria</option>
+                        <option value="Preinfantil">Preinfantil</option>
+                        <option value="Infantil">Infantil</option>
+                        <option value="Prejunior">Prejunior</option>
+                        <option value="Junior">Junior</option>
+                    </select>
+                    <br>
+                    <span class="error-text" id="error-option"></span>
+                </div>
+            </form>
+            <!-- FORMULARIO PREINSCRIPCION REPRESENTANTE FIN -->
+
+            <!-- FORMULARIO PREINSCRIPCION ESTUDIANTE -->
+                <h1 class="title-section">Datos del Estudiante</h1>
+                <form action="" class="form-landing-page">
+                <div class="input-field">
+                    <input type="text" class="input-form" id="name_student" autocomplete="off" 
+                    placeholder="Nombre y Apellido">
+                    <br>
+                </div>
+                <div class="input-field">
+                    <input type="number" min="5" max="15" class="input-form" id="student_age" autocomplete="off" placeholder="Edad">
+                    <br>
+                    <span class="error-text" id="error-age"></span>
+                </div>
+                <div class="input-field">
+                    <textarea class="textarea-form" id="comment_contact" cols="30" rows="10" minlength="10"
+                        maxlength="200" placeholder="Deja un comentario"></textarea>
+                    <br>
+                    <span class="error-text" id="error-comment"></span>
+                </div>
+                <button class="btns btn-enviar" type="button" value="submit" onclick="validateForm()">
+                    Enviar y cotizar
+                </button>
+            </form>
+        </section>
+        <!-- FORMULARIO PREINSCRIPCION ESTUDIANTE FIN -->
+    </main>
+    <!-- CONTENIDO FIN-->
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <h5 class="copy">
+           <b> "Nunca dejes que el miedo de poncharte te haga no jugar beisbol".</b> <br> Babe Ruth (ex jugador)
+        </h5>
+    </footer>
+    <!-- FOOTER FIN -->
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
